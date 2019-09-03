@@ -77,7 +77,7 @@ describe('Constructor functions', function() {
       });
       it('should change the original rating', function() {
         m.changeRating(84);
-        expect(m.rating).not.toEqual(84);
+        expect(m.rating).toEqual(84);
       });
     });
   });
